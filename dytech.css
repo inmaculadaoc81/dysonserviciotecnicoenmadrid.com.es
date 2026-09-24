@@ -1,11 +1,11 @@
-/* DyCenter: identidad cromática cobre y grafito, con acento verde azulado.
+/* DyTech: identidad cromática cobre y grafito, con acento verde azulado.
    WhatsApp conserva deliberadamente su verde original. */
 :root{--green:#ad592a;--green-dark:#874318;--green-darker:#603717;--dark:#4f2b14;--dark-2:#3a2110;--bg-light-green:#fff2ea;--bg-light-green-2:#fff9f4;--text-dark:#3d2616;--text-gray:#7d6353;--text-gray-light:#927b6c;--border-light:#f5e5dc;--white:#fff;--dp-blue:#9c5124;--dp-royal:#c26f34;--dp-magenta:#3ccec2;--dp-night:#472711;--dp-light:#fff9f5;--editorial-accent:Georgia,'Times New Roman',serif;}
 body{color:var(--text-dark);background:#fff;overflow-x:clip;}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #3ccec2;outline-offset:3px;}header{background:rgba(255,255,255,.96);border-bottom:1px solid #fbeee4;}header.scrolled{background:rgba(255,255,255,.98);border-bottom-color:#f5e5db;box-shadow:0 6px 24px rgba(116,67,31,.08)}.nav-wrap{max-width:1240px;gap:20px}.logo{flex:0 1 auto;min-width:0;display:inline-flex;align-items:center;gap:10px}.logo-icon{flex:none;display:block}.logo-word{font-weight:900;font-size:22px;letter-spacing:-.02em;color:#241d17;white-space:nowrap}.logo-word em{font-style:normal;color:var(--dp-royal)}.main-nav{gap:clamp(15px,2vw,29px)!important}.main-nav a{color:#502d17}.main-nav a:hover,.main-nav a.active{color:var(--dp-royal)}.nav-cta .btn-primary{background:linear-gradient(125deg,#b46731,#793c17);box-shadow:0 6px 20px rgba(152,84,37,.18)}.menu-toggle{color:var(--dp-night)}.btn-primary{background:linear-gradient(135deg,#c77742 0%,#aa5a24 58%,#824319 100%);box-shadow:0 6px 23px rgba(158,84,35,.23);color:#fff}.btn-primary:hover{box-shadow:0 10px 28px rgba(158,84,35,.32)}.btn-outline{border-color:#f2e0d3}.btn-outline svg{color:var(--dp-blue)}
 /* Diferenciación visual: red de nodos y líneas SVG, cobre claro en centro y luz en los bordes. */
-.hero{background:linear-gradient(180deg,#fff4ed 0%,#fffbf7 29%,#fff 60%,#fff5ed 100%);padding:80px 0 60px;isolation:isolate}.hero-pattern{background-image:url('img/dycenter-hero-pattern.svg'),linear-gradient(rgba(172,90,43,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(172,90,43,.055) 1px,transparent 1px);background-size:cover,52px 52px,52px 52px;background-position:center center;opacity:.76;-webkit-mask-image:none;mask-image:none}.hero-glow{background:radial-gradient(circle,rgba(210,123,62,.25),rgba(71,199,180,.09) 49%,transparent 74%);filter:blur(60px);opacity:.74}.hero h1{font-size:clamp(37px,4.6vw,60px);max-width:800px;margin:0 auto 23px;letter-spacing:-.055em;text-wrap:balance}.hero .accent,.title-accent{font-family:var(--editorial-accent);font-weight:500;font-style:italic;letter-spacing:-.035em;color:var(--dp-magenta)}.hero-lead{max-width:610px;margin:0 auto 32px;font-size:16px;line-height:1.75;color:#745845}.hero-features{gap:24px;margin:0 auto 33px}.hero-feature{color:#52301a;font-size:13.5px}.hero-feature svg,.hero-info-item svg{color:var(--dp-royal)}.hero-info{margin:0 auto 22px;max-width:665px;box-shadow:0 10px 32px rgba(101,51,21,.04);background:#fff}.hero-info-item{font-size:13px}.hero-info-item span{color:#8e7869}.hero-actions{max-width:575px;gap:11px}.hero-action{min-width:0;white-space:normal;line-height:1.4;text-wrap:balance;border:1px solid rgba(255,255,255,.16)!important;box-shadow:0 6px 19px rgba(110,54,20,.17)}.hero-action svg{flex:0 0 17px}.hero-actions .whatsapp-action,.floating-cta{background:linear-gradient(145deg,#3ecf74 0%,#1f9d55 55%,#167a42 100%)!important;color:#fff!important;box-shadow:0 4px 20px rgba(31,157,85,.3)!important}.hero-actions .whatsapp-action:hover,.floating-cta:hover{background:#167a42!important}.hero-actions .appointment-action{background:linear-gradient(135deg,#b0693c,#834e22);color:#fff}.hero-actions .phone-action{background:linear-gradient(135deg,#52d7c2,#2ca596);color:#fff}.hero-actions .appointment-action:hover,.hero-actions .phone-action:hover{filter:brightness(1.08);transform:translateY(-2px)}.eyebrow{color:var(--dp-blue)}.eyebrow .line{background:var(--dp-magenta)}
+.hero{background:linear-gradient(180deg,#fff4ed 0%,#fffbf7 29%,#fff 60%,#fff5ed 100%);padding:80px 0 60px;isolation:isolate}.hero-pattern{background-image:url('img/dytech-hero-pattern.svg'),linear-gradient(rgba(172,90,43,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(172,90,43,.055) 1px,transparent 1px);background-size:cover,52px 52px,52px 52px;background-position:center center;opacity:.76;-webkit-mask-image:none;mask-image:none}.hero-glow{background:radial-gradient(circle,rgba(210,123,62,.25),rgba(71,199,180,.09) 49%,transparent 74%);filter:blur(60px);opacity:.74}.hero h1{font-size:clamp(37px,4.6vw,60px);max-width:800px;margin:0 auto 23px;letter-spacing:-.055em;text-wrap:balance}.hero .accent,.title-accent{font-family:var(--editorial-accent);font-weight:500;font-style:italic;letter-spacing:-.035em;color:var(--dp-magenta)}.hero-lead{max-width:610px;margin:0 auto 32px;font-size:16px;line-height:1.75;color:#745845}.hero-features{gap:24px;margin:0 auto 33px}.hero-feature{color:#52301a;font-size:13.5px}.hero-feature svg,.hero-info-item svg{color:var(--dp-royal)}.hero-info{margin:0 auto 22px;max-width:665px;box-shadow:0 10px 32px rgba(101,51,21,.04);background:#fff}.hero-info-item{font-size:13px}.hero-info-item span{color:#8e7869}.hero-actions{max-width:575px;gap:11px}.hero-action{min-width:0;white-space:normal;line-height:1.4;text-wrap:balance;border:1px solid rgba(255,255,255,.16)!important;box-shadow:0 6px 19px rgba(110,54,20,.17)}.hero-action svg{flex:0 0 17px}.hero-actions .whatsapp-action,.floating-cta{background:linear-gradient(145deg,#3ecf74 0%,#1f9d55 55%,#167a42 100%)!important;color:#fff!important;box-shadow:0 4px 20px rgba(31,157,85,.3)!important}.hero-actions .whatsapp-action:hover,.floating-cta:hover{background:#167a42!important}.hero-actions .appointment-action{background:linear-gradient(135deg,#b0693c,#834e22);color:#fff}.hero-actions .phone-action{background:linear-gradient(135deg,#52d7c2,#2ca596);color:#fff}.hero-actions .appointment-action:hover,.hero-actions .phone-action:hover{filter:brightness(1.08);transform:translateY(-2px)}.eyebrow{color:var(--dp-blue)}.eyebrow .line{background:var(--dp-magenta)}
 .trusted{padding:40px 0 26px;background:#fff}.trusted-label{margin-bottom:8px;color:#8b6752}.trusted-sub{font-size:14px;color:#816556;max-width:690px;margin:0 auto}.reviews{padding:18px 0 0}.reviews-card{background:linear-gradient(115deg,#603919,#422610);border:1px solid rgba(229,162,113,.2)}.reviews-icon{color:#a9f0e0;background:rgba(255,255,255,.08)}.reviews-text .eyebrow{color:#ffdab9}.reviews-text .eyebrow .line{background:#5dd5c6}.reviews-text p{color:#f4e0d4}.reviews-card .btn-primary{background:linear-gradient(135deg,#d28246,#3ba883)}
-.solutions{padding:85px 0;background:#fff}.section-title{color:var(--dp-night);line-height:1.24}.sol-card{border:1px solid #f5e6dd;background:linear-gradient(#fff,#fffdfa)}.sol-card:hover{box-shadow:0 14px 28px rgba(151,83,34,.12);border-color:#f1ceb6}.sol-icon{background:#fff6ed;color:var(--dp-royal);font-size:29px;font-weight:500}.sol-card h3{color:#5f3419}.sol-card p{color:#836959}.why-us{background:linear-gradient(120deg,#653b17,#432711 77%)}.why-image{background:linear-gradient(150deg,#7f491e,#442b12);border:1px solid rgba(117,230,210,.22)}.why-image::before{background-image:url('img/dycenter-hero-pattern.svg');background-repeat:no-repeat;background-size:cover;background-position:center;opacity:.35}.why-quote{background:linear-gradient(90deg,rgba(50,29,12,.94),rgba(50,29,12,.78));padding:18px 20px;border-radius:12px;position:relative;z-index:2}.why-quote p,.why-quote p em{font-family:var(--editorial-accent);font-style:italic;font-weight:500;line-height:1.2;color:#fff;text-shadow:0 2px 7px rgba(0,0,0,.28)}.why-quote p em{color:#b5f1e6}.why-quote .underline{background:var(--dp-magenta)}.why-eyebrow{color:#f9d6bd}.why-eyebrow .line{background:var(--dp-magenta)}.why-us h2{color:#fff}.why-us h2 .title-accent{color:#b2f4ea}.why-item .why-icon{color:#b5f0e3;background:rgba(255,255,255,.09);font-size:24px}.why-item p{color:#efd6c8}.how{padding:86px 0}.how-num{background:linear-gradient(135deg,#c86f30,#3cba9f);box-shadow:0 8px 22px rgba(168,100,53,.25)}.how-arrow{color:#d9ab8e}.how-step p{color:#8d7362}
+.solutions{padding:85px 0;background:#fff}.section-title{color:var(--dp-night);line-height:1.24}.sol-card{border:1px solid #f5e6dd;background:linear-gradient(#fff,#fffdfa)}.sol-card:hover{box-shadow:0 14px 28px rgba(151,83,34,.12);border-color:#f1ceb6}.sol-icon{background:#fff6ed;color:var(--dp-royal);font-size:29px;font-weight:500}.sol-card h3{color:#5f3419}.sol-card p{color:#836959}.why-us{background:linear-gradient(120deg,#653b17,#432711 77%)}.why-image{background:linear-gradient(150deg,#7f491e,#442b12);border:1px solid rgba(117,230,210,.22)}.why-image::before{background-image:url('img/dytech-hero-pattern.svg');background-repeat:no-repeat;background-size:cover;background-position:center;opacity:.35}.why-quote{background:linear-gradient(90deg,rgba(50,29,12,.94),rgba(50,29,12,.78));padding:18px 20px;border-radius:12px;position:relative;z-index:2}.why-quote p,.why-quote p em{font-family:var(--editorial-accent);font-style:italic;font-weight:500;line-height:1.2;color:#fff;text-shadow:0 2px 7px rgba(0,0,0,.28)}.why-quote p em{color:#b5f1e6}.why-quote .underline{background:var(--dp-magenta)}.why-eyebrow{color:#f9d6bd}.why-eyebrow .line{background:var(--dp-magenta)}.why-us h2{color:#fff}.why-us h2 .title-accent{color:#b2f4ea}.why-item .why-icon{color:#b5f0e3;background:rgba(255,255,255,.09);font-size:24px}.why-item p{color:#efd6c8}.how{padding:86px 0}.how-num{background:linear-gradient(135deg,#c86f30,#3cba9f);box-shadow:0 8px 22px rgba(168,100,53,.25)}.how-arrow{color:#d9ab8e}.how-step p{color:#8d7362}
 .cita{background:#fdf7f2;padding:82px 0 54px}.cita-layout{display:grid;grid-template-columns:minmax(0,.68fr) minmax(0,1.32fr);align-items:start;gap:clamp(25px,4.5vw,68px)}.cita-copy{padding-top:60px}.cita-copy .eyebrow,.cita-copy .section-title,.cita-copy .section-sub{text-align:left;justify-content:flex-start}.cita-copy .section-title{font-size:clamp(28px,3vw,42px)}.cita-copy .section-sub{margin:15px 0 20px;max-width:420px;line-height:1.7}.cita-fallback{display:inline-block;color:#9e5123;text-decoration:underline;text-underline-offset:3px;font-size:13px;font-weight:700}.cita .cal{width:100%;max-width:100%;height:720px;border:0;border-radius:0;box-shadow:none;background:transparent;margin:0;display:block}.cta-banner-wrap{padding:85px 0 88px}.contact-info .eyebrow{justify-content:flex-start}.contact-info h2{color:#4c2c16}.contact-phone a{color:var(--dp-blue)}#contact-form input:not([type=checkbox]),#contact-form textarea{background:#fffaf6;border-color:#f6e6dc;color:#4e2e1a}#contact-form input:focus,#contact-form textarea:focus{border-color:#c88454;box-shadow:0 0 0 3px rgba(189,110,55,.14)}.privacy-check{display:flex;align-items:flex-start;gap:10px;min-width:0}.privacy-check input[type=checkbox]{width:17px;height:17px;flex:0 0 17px;margin-top:2px;accent-color:var(--dp-blue)}.privacy-check span{min-width:0;flex:1}.privacy-check a{color:var(--dp-blue)}.contact-map{margin-top:20px;box-shadow:0 12px 28px rgba(138,74,32,.1);border:1px solid #f4e3db}.contact-map iframe{width:100%;height:330px}.social-section{background:#fff3ea}.social-section h2{color:var(--dp-night)}.social-link{background:#a65926!important}.social-link.instagram,.social-link.snapchat{background:#3cbba6!important}.social-link.tiktok,.social-link.x-twitter{background:#482812!important}.social-link.youtube{background:#33a88e!important}.social-link.snapchat img{filter:brightness(0) invert(1)}.seo-text{padding:clamp(65px,8vw,108px) 0;background:linear-gradient(140deg,#fff7f1,#fff 56%,#eff9f4)}.seo-layout{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(30px,5vw,85px);max-width:1100px;margin:0 auto}.seo-heading{border-left:3px solid var(--dp-magenta);padding:8px 0 0 22px}.seo-kicker{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dp-blue);font-weight:800;margin-bottom:17px}.seo-text h2{max-width:none;margin:0;text-align:left;font-size:clamp(28px,3vw,38px);line-height:1.26;letter-spacing:-.04em;color:var(--dp-night)}.seo-text .seo-description p{max-width:none;font-size:15px;line-height:1.85;color:#735a4a;margin:0 0 21px}.seo-text .seo-description p:first-child{color:#5d3a24;font-size:16px}.seo-text .seo-description p:last-child{margin-bottom:0}
 footer{background:#3a2110;color:#f6e4d8;padding-top:56px}footer .footer-grid{grid-template-columns:minmax(0,1.12fr) minmax(0,.85fr) minmax(0,1.1fr);gap:clamp(24px,5vw,75px)}footer .footer-logo .logo-word{font-size:20px;color:#fff}footer .footer-logo .logo-word em{font-style:normal;color:var(--dp-magenta)}.footer-brand-note{font-size:13px;line-height:1.6;color:#ebd3c4;max-width:230px;margin-top:14px}.footer-col ul li a,.footer-contact li,footer .footer-contact a{color:#efdbce}footer .footer-col ul li a:hover,footer .footer-contact a:hover{color:#fff}footer .footer-contact li svg{color:#62cfba}footer .footer-bottom{border-top:1px solid rgba(255,255,255,.09)}footer .footer-bottom-links a{color:#efd5c5}.floating-cta{z-index:200}.floating-cta svg{width:25px;height:25px;stroke:#fff;fill:none;stroke-width:1.8}
 .cookie-banner{position:fixed;inset:auto 0 0;z-index:99999;background:#482812;color:#fff;padding:20px 52px 20px 20px;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:15px;box-shadow:0 -8px 24px rgba(0,0,0,.2)}.cookie-banner[hidden]{display:none}.cookie-banner p{max-width:850px;flex:1 1 380px;font-size:13px;line-height:1.5}.cookie-actions{display:flex;flex-wrap:wrap;gap:8px}.cookie-btn{background:#b56931;color:#fff!important;padding:10px 17px;border-radius:24px;font-weight:700;font-size:13px;text-align:center}.cookie-link{text-decoration:none}.cookie-close{position:absolute;right:12px;top:9px;color:#fff;font-size:23px;padding:4px 9px}
@@ -23,41 +23,41 @@ footer{background:#3a2110;color:#f6e4d8;padding-top:56px}footer .footer-grid{gri
 @media(max-width:640px){.faq-section{padding:55px 0}}
 
 
-/* === DyCenter refresh 2026-09: identidad azul técnica === */
+/* === DyTech refresh 2026-09: identidad azul técnica === */
 :root{
-  --green:#7C5CFC;--green-dark:#5B3DE1;--green-darker:#0A3158;
+  --green:#00B8D9;--green-dark:#0077B6;--green-darker:#0A3158;
   --dark:#081B2D;--dark-2:#061421;
-  --bg-light-green:#F3F0FF;--bg-light-green-2:#FAF8FF;
+  --bg-light-green:#EAFBFF;--bg-light-green-2:#F7FDFF;
   --text-dark:#0B1F33;--text-gray:#516477;--text-gray-light:#718295;
-  --border-light:#E4DEFF;--dp-blue:#6C4FF8;--dp-royal:#8E74FF;
-  --dp-magenta:#7C5CFC;--dp-night:#081B2D;--dp-light:#FAF8FF;
+  --border-light:#D5F3FA;--dp-blue:#0096C7;--dp-royal:#48CAE4;
+  --dp-magenta:#00B8D9;--dp-night:#081B2D;--dp-light:#F7FDFF;
 }
 body{color:var(--text-dark)}
-.logo-word{color:#061421}.logo-word em{color:#8E74FF}
-.btn-primary{background:linear-gradient(135deg,#A99BFF 0%,#7257E8 55%,#5B3DE1 100%);box-shadow:0 8px 24px rgba(13,94,166,.24)}
+.logo-word{color:#061421}.logo-word em{color:#48CAE4}
+.btn-primary{background:linear-gradient(135deg,#90E0EF 0%,#00A6C7 55%,#0077B6 100%);box-shadow:0 8px 24px rgba(13,94,166,.24)}
 .btn-primary:hover{box-shadow:0 12px 30px rgba(13,94,166,.32)}
-.hero{background:linear-gradient(180deg,#F3F0FF 0%,#FAF8FF 34%,#fff 66%,#F3F0FF 100%)}
-.hero-pattern{background-image:url('img/dycenter-hero-pattern.svg'),linear-gradient(rgba(30,136,229,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(30,136,229,.055) 1px,transparent 1px)}
+.hero{background:linear-gradient(180deg,#EAFBFF 0%,#F7FDFF 34%,#fff 66%,#EAFBFF 100%)}
+.hero-pattern{background-image:url('img/dytech-hero-pattern.svg'),linear-gradient(rgba(30,136,229,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(30,136,229,.055) 1px,transparent 1px)}
 .hero-glow{background:radial-gradient(circle,rgba(89,199,243,.26),rgba(30,136,229,.10) 48%,transparent 74%)}
-.hero-lead{color:#52687B}.hero-feature{color:#17334D}.hero-feature svg,.hero-info-item svg{color:#8E74FF}.hero-info-item span{color:#6A7E91}
-.hero-actions .appointment-action{background:linear-gradient(135deg,#7C5CFC,#5B3DE1)}
-.hero-actions .phone-action{background:linear-gradient(135deg,#7C5CFC,#7257E8)}
-.eyebrow{color:#6C4FF8}.eyebrow .line{background:#7C5CFC}
+.hero-lead{color:#52687B}.hero-feature{color:#17334D}.hero-feature svg,.hero-info-item svg{color:#48CAE4}.hero-info-item span{color:#6A7E91}
+.hero-actions .appointment-action{background:linear-gradient(135deg,#00B8D9,#0077B6)}
+.hero-actions .phone-action{background:linear-gradient(135deg,#00B8D9,#00A6C7)}
+.eyebrow{color:#0096C7}.eyebrow .line{background:#00B8D9}
 .trusted-label,.trusted-sub{color:#607487}.reviews-card{background:linear-gradient(115deg,#0A3158,#061421);border-color:rgba(89,199,243,.22)}
-.sol-card{border-color:#E4DEFF;background:linear-gradient(#fff,#F8FCFF)}.sol-card:hover{box-shadow:0 14px 28px rgba(23,94,148,.12);border-color:#D2C8FF}
-.sol-icon{background:#F3F0FF;color:#7C5CFC}.sol-card h3{color:#12324D}.sol-card p{color:#5F7487}
-.why-us{background:linear-gradient(120deg,#0A3158,#061421 77%)}.why-image{background:linear-gradient(150deg,#5B3DE1,#071C2F);border-color:rgba(89,199,243,.25)}
-.why-item p{color:#DDD5FF}.how-num{background:linear-gradient(135deg,#7257E8,#7C5CFC);box-shadow:0 8px 22px rgba(35,141,212,.26)}.how-arrow{color:#B9AEFF}.how-step p{color:#607487}
-.cita{background:#FAF8FF}.contact-info h2{color:#0B2943}.contact-phone a,.privacy-check a,.cita-fallback{color:#6C4FF8}
-#contact-form input:not([type=checkbox]),#contact-form textarea{background:#F8FCFF;border-color:#E4DEFF;color:#12324D}
-#contact-form input:focus,#contact-form textarea:focus{border-color:#8E74FF;box-shadow:0 0 0 3px rgba(43,143,232,.14)}
-.social-section{background:#F3F0FF}.social-section h2{color:#081B2D}.social-link{background:#6C4FF8!important}.social-link.instagram,.social-link.snapchat{background:#7257E8!important}.social-link.tiktok,.social-link.x-twitter{background:#081B2D!important}.social-link.youtube{background:#7C5CFC!important}
-.seo-text{background:linear-gradient(140deg,#FAF8FF,#fff 56%,#F3F0FF)}.seo-kicker{color:#6C4FF8}.seo-text h2{color:#081B2D}.seo-text .seo-description p{color:#52687B}.seo-text .seo-description p:first-child{color:#29465F}
-footer{background:#061421;color:#E4DEFF}.footer-brand-note,.footer-col ul li a,.footer-contact li,footer .footer-contact a{color:#D8CFFF}.cookie-banner{background:#081B2D}.cookie-btn{background:#7C5CFC}
+.sol-card{border-color:#D5F3FA;background:linear-gradient(#fff,#F8FCFF)}.sol-card:hover{box-shadow:0 14px 28px rgba(23,94,148,.12);border-color:#BDEBF5}
+.sol-icon{background:#EAFBFF;color:#00B8D9}.sol-card h3{color:#12324D}.sol-card p{color:#5F7487}
+.why-us{background:linear-gradient(120deg,#0A3158,#061421 77%)}.why-image{background:linear-gradient(150deg,#0077B6,#071C2F);border-color:rgba(89,199,243,.25)}
+.why-item p{color:#CAF0F8}.how-num{background:linear-gradient(135deg,#00A6C7,#00B8D9);box-shadow:0 8px 22px rgba(35,141,212,.26)}.how-arrow{color:#ADE8F4}.how-step p{color:#607487}
+.cita{background:#F7FDFF}.contact-info h2{color:#0B2943}.contact-phone a,.privacy-check a,.cita-fallback{color:#0096C7}
+#contact-form input:not([type=checkbox]),#contact-form textarea{background:#F8FCFF;border-color:#D5F3FA;color:#12324D}
+#contact-form input:focus,#contact-form textarea:focus{border-color:#48CAE4;box-shadow:0 0 0 3px rgba(43,143,232,.14)}
+.social-section{background:#EAFBFF}.social-section h2{color:#081B2D}.social-link{background:#0096C7!important}.social-link.instagram,.social-link.snapchat{background:#00A6C7!important}.social-link.tiktok,.social-link.x-twitter{background:#081B2D!important}.social-link.youtube{background:#00B8D9!important}
+.seo-text{background:linear-gradient(140deg,#F7FDFF,#fff 56%,#EAFBFF)}.seo-kicker{color:#0096C7}.seo-text h2{color:#081B2D}.seo-text .seo-description p{color:#52687B}.seo-text .seo-description p:first-child{color:#29465F}
+footer{background:#061421;color:#D5F3FA}.footer-brand-note,.footer-col ul li a,.footer-contact li,footer .footer-contact a{color:#CAF0F8}.cookie-banner{background:#081B2D}.cookie-btn{background:#00B8D9}
 
 /* Franja legal independiente: centrada, clara y visible */
 .disclaimer-bar{
-  background:linear-gradient(90deg,#5B3DE1,#7C5CFC,#5B3DE1);
+  background:linear-gradient(90deg,#0077B6,#00B8D9,#0077B6);
   color:#fff;text-align:center;font-size:13px;font-weight:700;letter-spacing:.01em;
   padding:9px 18px;line-height:1.35;border:0;box-shadow:0 3px 12px rgba(6,20,33,.12)
 }
@@ -75,16 +75,16 @@ footer{background:#061421;color:#E4DEFF}.footer-brand-note,.footer-col ul li a,.
 .fast-heading{padding-top:2px;text-align:left}
 .fast-heading .eyebrow{justify-content:flex-start;text-align:left}
 .fast-heading .section-title{margin:16px 0 0;text-align:left;max-width:470px;font-size:clamp(32px,3.5vw,48px);line-height:1.12;color:#081B2D}
-.fast-heading .title-accent{color:#8E74FF}
-.fast-details{border-left:1px solid #E4DEFF;padding-left:clamp(28px,4vw,50px)}
+.fast-heading .title-accent{color:#48CAE4}
+.fast-details{border-left:1px solid #D5F3FA;padding-left:clamp(28px,4vw,50px)}
 .fast-details .section-sub{text-align:left;margin:0;color:#52687B;line-height:1.75}
 .fast-details .ticks{margin-top:26px}
-.tick i{background:#F3F0FF!important;color:#6C4FF8!important}
+.tick i{background:#EAFBFF!important;color:#0096C7!important}
 .tick b{color:#081B2D!important}.tick div{color:#52687B!important}
 
 /* Confianza: Google azul, YouTube conserva su rojo corporativo. */
 .reviews{background:#fff}
-.trust-card.google{background:linear-gradient(135deg,#6C4FF8,#7257E8)!important}
+.trust-card.google{background:linear-gradient(135deg,#0096C7,#00A6C7)!important}
 .trust-card.youtube{background:linear-gradient(135deg,#B91C12,#E5251B)!important}
 .trust-card.google,.trust-card.youtube{color:#fff!important}
 .trust-card h3,.trust-card p,.trust-card b,.trust-card .eyebrow{color:#fff!important}
@@ -93,20 +93,20 @@ footer{background:#061421;color:#E4DEFF}.footer-brand-note,.footer-col ul li a,.
 .fast-art{display:none!important}
 .reviews-card{background:linear-gradient(115deg,#0A3158,#061421)!important}
 .why-us{background:linear-gradient(120deg,#0A3158,#061421 77%)!important}
-.why-image{background:linear-gradient(150deg,#5B3DE1,#071C2F)!important}
+.why-image{background:linear-gradient(150deg,#0077B6,#071C2F)!important}
 footer{background:#061421!important}
 .cookie-banner{background:#081B2D!important}
-.social-link.facebook{background:#6C4FF8!important}
-.social-link.instagram,.social-link.snapchat{background:#7257E8!important}
+.social-link.facebook{background:#0096C7!important}
+.social-link.instagram,.social-link.snapchat{background:#00A6C7!important}
 .social-link.tiktok,.social-link.x-twitter{background:#081B2D!important}
 .social-link.youtube{background:#E5251B!important}
-.hero-actions .appointment-action{background:linear-gradient(135deg,#7C5CFC,#5B3DE1)!important}
-.hero-actions .phone-action{background:linear-gradient(135deg,#7C5CFC,#7257E8)!important}
+.hero-actions .appointment-action{background:linear-gradient(135deg,#00B8D9,#0077B6)!important}
+.hero-actions .phone-action{background:linear-gradient(135deg,#00B8D9,#00A6C7)!important}
 
 @media(max-width:900px){
   .fast-grid{grid-template-columns:1fr;gap:28px}
   .fast-heading .section-title{max-width:680px}
-  .fast-details{border-left:0;border-top:1px solid #E4DEFF;padding:28px 0 0}
+  .fast-details{border-left:0;border-top:1px solid #D5F3FA;padding:28px 0 0}
 }
 @media(max-width:640px){
   .fast-section{padding:58px 0}
@@ -116,14 +116,14 @@ footer{background:#061421!important}
 
 /* === Ajustes solicitados 2026-09-23: paleta controlada y contraste === */
 
-/* Por qué DyCenter */
+/* Por qué DyTech */
 .why-us{
   background:linear-gradient(125deg,#061421 0%,#081B2D 52%,#0A3158 100%)!important;
   color:#fff!important;
 }
 .why-image{
-  background:linear-gradient(145deg,#5B3DE1 0%,#0A3158 100%)!important;
-  border:1px solid #7257E8!important;
+  background:linear-gradient(145deg,#0077B6 0%,#0A3158 100%)!important;
+  border:1px solid #00A6C7!important;
 }
 .why-image::before{filter:none!important}
 .why-quote{
@@ -133,38 +133,38 @@ footer{background:#061421!important}
   box-shadow:0 16px 35px rgba(0,0,0,.20)!important;
 }
 .why-quote p{color:#fff!important}
-.why-quote em{color:#B9AEFF!important}
-.why-quote .underline{background:#7C5CFC!important}
-.why-eyebrow{color:#B9AEFF!important}
-.why-eyebrow .line{background:#7C5CFC!important}
+.why-quote em{color:#ADE8F4!important}
+.why-quote .underline{background:#00B8D9!important}
+.why-eyebrow{color:#ADE8F4!important}
+.why-eyebrow .line{background:#00B8D9!important}
 .why-us h2{color:#fff!important}
-.why-us h2 .title-accent{color:#B9AEFF!important}
+.why-us h2 .title-accent{color:#ADE8F4!important}
 .why-icon{
   background:#123A5A!important;
-  color:#B9AEFF!important;
+  color:#ADE8F4!important;
   border:1px solid rgba(139,219,255,.16)!important;
 }
 .why-item h4{color:#fff!important}
-.why-item p{color:#E4DEFF!important}
+.why-item p{color:#D5F3FA!important}
 
 /* FAQ: sustituye crema/amarillo por celeste muy claro con contraste azul marino. */
 .faq-section{
-  background:#F3F0FF!important;
+  background:#EAFBFF!important;
 }
-.faq-section .eyebrow{color:#6C4FF8!important}
-.faq-section .eyebrow .line{background:#7C5CFC!important}
+.faq-section .eyebrow{color:#0096C7!important}
+.faq-section .eyebrow .line{background:#00B8D9!important}
 .faq-section .section-title{color:#081B2D!important}
-.faq-section .title-accent{color:#7257E8!important}
+.faq-section .title-accent{color:#00A6C7!important}
 .faq-list details{
   background:#fff!important;
-  border:1px solid #DDD5FF!important;
+  border:1px solid #CAF0F8!important;
   box-shadow:0 5px 16px rgba(8,27,45,.045)!important;
 }
 .faq-list summary{color:#081B2D!important}
-.faq-list summary::before{color:#7C5CFC!important}
-.faq-list details[open]{border-color:#B9AEFF!important}
-.faq-list details[open] summary{color:#5B3DE1!important}
-.faq-list details p{color:#52687B!important;border-top-color:#E4DEFF!important}
+.faq-list summary::before{color:#00B8D9!important}
+.faq-list details[open]{border-color:#ADE8F4!important}
+.faq-list details[open] summary{color:#0077B6!important}
+.faq-list details p{color:#52687B!important;border-top-color:#D5F3FA!important}
 
 /* La antigua sección social ha sido eliminada del HTML. */
 
@@ -179,8 +179,8 @@ footer{background:#061421!important}
 .hero-benefits-grid{
   display:grid;
   grid-template-columns:repeat(4,minmax(0,1fr));
-  background:linear-gradient(135deg,#FAF8FF,#F3F0FF);
-  border:1px solid #DDD5FF;
+  background:linear-gradient(135deg,#F7FDFF,#EAFBFF);
+  border:1px solid #CAF0F8;
   border-radius:20px;
   box-shadow:0 12px 32px rgba(8,27,45,.07);
   overflow:hidden;
@@ -206,8 +206,8 @@ footer{background:#061421!important}
   display:flex;align-items:center;justify-content:center;
   margin-bottom:15px;
   background:#EEE9FF;
-  color:#6C4FF8;
-  border:1px solid #D2C8FF;
+  color:#0096C7;
+  border:1px solid #BDEBF5;
 }
 .hero-benefit-icon svg{
   width:29px;height:29px;
@@ -240,10 +240,10 @@ footer{background:#061421!important}
 
 /* Ilustraciones laterales SVG del hero */
 .hero{position:relative;overflow:hidden}.hero .container{position:relative;z-index:3}
-.hero-vacuum-art{position:absolute;z-index:1;top:50%;width:clamp(210px,23vw,360px);height:auto;pointer-events:none;user-select:none;opacity:.88;filter:drop-shadow(0 22px 30px rgba(8,27,45,.16));animation:dycenterHeroFloat 5.5s ease-in-out infinite}
+.hero-vacuum-art{position:absolute;z-index:1;top:50%;width:clamp(210px,23vw,360px);height:auto;pointer-events:none;user-select:none;opacity:.88;filter:drop-shadow(0 22px 30px rgba(8,27,45,.16));animation:dytechHeroFloat 5.5s ease-in-out infinite}
 .hero-vacuum-left{left:max(-95px,calc(50% - 850px));transform:translateY(-50%) rotate(-2deg)}
 .hero-vacuum-right{right:max(-95px,calc(50% - 850px));transform:translateY(-50%) rotate(2deg);animation-delay:-2.4s}
-@keyframes dycenterHeroFloat{0%,100%{margin-top:0}50%{margin-top:-13px}}
+@keyframes dytechHeroFloat{0%,100%{margin-top:0}50%{margin-top:-13px}}
 @media(max-width:1180px){.hero-vacuum-art{width:220px;opacity:.22}.hero-vacuum-left{left:-85px}.hero-vacuum-right{right:-85px}}
 @media(max-width:720px){.hero-vacuum-art{width:165px;top:46%;opacity:.12}.hero-vacuum-left{left:-95px}.hero-vacuum-right{right:-95px}}
 @media(prefers-reduced-motion:reduce){.hero-vacuum-art{animation:none}}
@@ -257,7 +257,7 @@ footer{background:#061421!important}
 @media(max-width:1180px){.hero-vacuum-art{width:190px!important;opacity:.18!important}.hero-vacuum-left{left:4px!important}.hero-vacuum-right{right:4px!important}}
 @media(max-width:720px){.hero-vacuum-art{width:125px!important;max-height:55%!important;opacity:.09!important}.hero-vacuum-left{left:0!important}.hero-vacuum-right{right:0!important}}
 
-/* Recupera el gráfico técnico de la sección Por qué DyCenter */
+/* Recupera el gráfico técnico de la sección Por qué DyTech */
 .why-image{position:relative;overflow:hidden;isolation:isolate}
 .why-repair-art{
  position:absolute;inset:18px 12px 10px 28px;width:calc(100% - 40px);height:calc(100% - 28px);

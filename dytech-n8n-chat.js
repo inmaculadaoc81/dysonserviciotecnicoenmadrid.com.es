@@ -8,8 +8,8 @@ const target = document.querySelector('#n8n-chat');
 // El botón se crea como respaldo visible aunque el módulo remoto de n8n tarde o falle.
 const fallbackToggle = document.createElement('button');
 fallbackToggle.type = 'button';
-fallbackToggle.className = 'dycenter-chat-fallback';
-fallbackToggle.setAttribute('aria-label', 'Abrir chatbot DyCenter');
+fallbackToggle.className = 'dytech-chat-fallback';
+fallbackToggle.setAttribute('aria-label', 'Abrir chatbot DyTech');
 fallbackToggle.innerHTML = '<span aria-hidden="true">💬</span><span>Chat</span>';
 document.body.appendChild(fallbackToggle);
 
@@ -20,8 +20,8 @@ const hideFallbackWhenReady = () => {
 const readyObserver = new MutationObserver(hideFallbackWhenReady);
 if (target) readyObserver.observe(target, { childList: true, subtree: true });
 
-if (target && !target.dataset.dycenterChatInitialized) {
-  target.dataset.dycenterChatInitialized = 'true';
+if (target && !target.dataset.dytechChatInitialized) {
+  target.dataset.dytechChatInitialized = 'true';
 
   fallbackToggle.addEventListener('click', () => {
     const realToggle = target.querySelector('.chat-window-toggle, [class*="chat-window-toggle"]');
@@ -43,7 +43,7 @@ if (target && !target.dataset.dycenterChatInitialized) {
     ],
     i18n: {
       es: {
-        title: 'DyCenter',
+        title: 'DyTech',
         subtitle: 'Asistente de servicio técnico',
         footer: '',
         getStarted: 'INICIAR CONVERSACIÓN',
